@@ -81,6 +81,7 @@ nav a:hover {
     padding: 100px 0;
     text-align: center;
     background-color: #e3d6b9;
+    height: 100vh;
 }
 
 .menu h2 {
@@ -97,8 +98,15 @@ nav a:hover {
 .item{
     height: 300px;
     width: 300px;
-    background-color: aqua;
+    background-color: rgba(74, 48, 28, 0.305);
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu_img{
+    width: 100%;
+    box-shadow: 3px 4px 5px #4c3c32;
+    margin-bottom: 5px;
 }
 .about {
     padding: 100px 0;
